@@ -1,0 +1,44 @@
+.navbar {
+	height: 100%;
+	width: 10vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 1vw;
+	background-color: #000000;
+	color: #FFFFFF;
+	display: block;
+}
+
+.navbar a:hover {
+	color: #63FF00;
+}
+
+.navbar a.active {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.viewport {
+	height: 100%;
+	width: 90vw;
+	position: fixed;
+	top: 0;
+	left: 10vw;
+	background-color: #000000;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.viewport p {
+	margin: 0px;
+	font-size: 1vw;
+	color: #FFFFFF;
+}
