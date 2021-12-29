@@ -35,7 +35,7 @@ int main(int argc, char ** argv){
 	unsigned long int num_links = argc - 1;
 	unsigned long int name_arg_offset = 1;
 
-	for(int i = 1; i < argc; i++){
+	for(int i = name_arg_offset; i < argc; i++){
 
 		FILE * markdown = openfile(argv[i], ".markdown", "r");
 		FILE * template = openfile(argv[i], ".template", "r");
