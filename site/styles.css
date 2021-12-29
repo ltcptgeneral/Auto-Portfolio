@@ -26,6 +26,11 @@
 	color: #000000;
 }
 
+.navbar a.inactive{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
 .viewport {
 	height: 100%;
 	width: 90vw;
