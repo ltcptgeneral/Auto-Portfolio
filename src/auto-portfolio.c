@@ -8,7 +8,7 @@ char * stringsearch(const char * haystack, const char * needle){
 	return strstr(haystack, needle);
 }
 FILE * openfile(char * name, char * extension, char * modes){
-	char path[strlen(name)];
+	char path[strlen(name) + strlen(extension)];
 	strcpy(path, name);
 	strcat(path, extension);
 	return fopen(path, modes);
